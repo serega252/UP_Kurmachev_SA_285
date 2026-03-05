@@ -1,0 +1,1382 @@
+{
+  "Version": 1,
+  "Hash": "kbNI0vM2uLVWyRrqIFJ73CsDRACJPiEDv3D6kWOGwfA=",
+  "Source": "sergey_crud",
+  "BasePath": "_content/sergey_crud",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "sergey_crud\\wwwroot",
+      "Source": "sergey_crud",
+      "ContentRoot": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\",
+      "BasePath": "_content/sergey_crud",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\7vcanvqtxo-7upfgnimzo.gz",
+      "SourceId": "sergey_crud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/sergey_crud",
+      "RelativePath": "index#[.{fingerprint=7upfgnimzo}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vwwm1jh5h4",
+      "Integrity": "4ZLj3wMiWO22q90ggEYwjlNDQ79obg5kXphcamV1Iks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\9dibtl36cx-pb29hjx7cq.gz",
+      "SourceId": "sergey_crud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/sergey_crud",
+      "RelativePath": "login#[.{fingerprint=pb29hjx7cq}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\login.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "j2xrp3k4ft",
+      "Integrity": "K8UN6pDwzQ42jQRZuljLTClf620Wapw3kgTn/pkXoUI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\j03clmulto-gw4gsc5oow.gz",
+      "SourceId": "sergey_crud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/sergey_crud",
+      "RelativePath": "site#[.{fingerprint=gw4gsc5oow}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hwylqfafbe",
+      "Integrity": "DwZXI4yhteSFH5djiqY4zsiyl2pXYMpK/NoxJ8RZhgY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\r8yszfa2kp-emsz413jop.gz",
+      "SourceId": "sergey_crud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/sergey_crud",
+      "RelativePath": "app#[.{fingerprint=emsz413jop}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\app.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gzbk1b9jst",
+      "Integrity": "rHZTCt7FiScoedHw43R2BY3k8IA1HXq7r6jrAjcoF20=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\app.js",
+      "SourceId": "sergey_crud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\",
+      "BasePath": "_content/sergey_crud",
+      "RelativePath": "app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "emsz413jop",
+      "Integrity": "ppPCQ9463Ywy0Ypb7xWavJp8gSZ8wtQxL++t/GQsNNg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\index.html",
+      "SourceId": "sergey_crud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\",
+      "BasePath": "_content/sergey_crud",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7upfgnimzo",
+      "Integrity": "cWP6dK4G2v/CA59fJK3SCB314GR2hM6Olm+1Y3M3VXs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\login.html",
+      "SourceId": "sergey_crud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\",
+      "BasePath": "_content/sergey_crud",
+      "RelativePath": "login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pb29hjx7cq",
+      "Integrity": "+94i4nn+T63g8hyMJJZNcPG/YpCq2Y+9p7VbfF9dur4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\site.css",
+      "SourceId": "sergey_crud",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\",
+      "BasePath": "_content/sergey_crud",
+      "RelativePath": "site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gw4gsc5oow",
+      "Integrity": "MOcdPRpTLey0kcRu3YHcI2Tv5W8TYhqi3XatxWvMr68=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.emsz413jop.js",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\r8yszfa2kp-emsz413jop.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000116726976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8566"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHZTCt7FiScoedHw43R2BY3k8IA1HXq7r6jrAjcoF20=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ppPCQ9463Ywy0Ypb7xWavJp8gSZ8wtQxL++t/GQsNNg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "emsz413jop"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppPCQ9463Ywy0Ypb7xWavJp8gSZ8wtQxL++t/GQsNNg="
+        }
+      ]
+    },
+    {
+      "Route": "app.emsz413jop.js",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppPCQ9463Ywy0Ypb7xWavJp8gSZ8wtQxL++t/GQsNNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "emsz413jop"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppPCQ9463Ywy0Ypb7xWavJp8gSZ8wtQxL++t/GQsNNg="
+        }
+      ]
+    },
+    {
+      "Route": "app.emsz413jop.js.gz",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\r8yszfa2kp-emsz413jop.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHZTCt7FiScoedHw43R2BY3k8IA1HXq7r6jrAjcoF20=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "emsz413jop"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rHZTCt7FiScoedHw43R2BY3k8IA1HXq7r6jrAjcoF20="
+        }
+      ]
+    },
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\r8yszfa2kp-emsz413jop.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000116726976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8566"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHZTCt7FiScoedHw43R2BY3k8IA1HXq7r6jrAjcoF20=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ppPCQ9463Ywy0Ypb7xWavJp8gSZ8wtQxL++t/GQsNNg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppPCQ9463Ywy0Ypb7xWavJp8gSZ8wtQxL++t/GQsNNg="
+        }
+      ]
+    },
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ppPCQ9463Ywy0Ypb7xWavJp8gSZ8wtQxL++t/GQsNNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ppPCQ9463Ywy0Ypb7xWavJp8gSZ8wtQxL++t/GQsNNg="
+        }
+      ]
+    },
+    {
+      "Route": "app.js.gz",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\r8yszfa2kp-emsz413jop.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rHZTCt7FiScoedHw43R2BY3k8IA1HXq7r6jrAjcoF20=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rHZTCt7FiScoedHw43R2BY3k8IA1HXq7r6jrAjcoF20="
+        }
+      ]
+    },
+    {
+      "Route": "index.7upfgnimzo.html",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\7vcanvqtxo-7upfgnimzo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000510986203"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1956"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ZLj3wMiWO22q90ggEYwjlNDQ79obg5kXphcamV1Iks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cWP6dK4G2v/CA59fJK3SCB314GR2hM6Olm+1Y3M3VXs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7upfgnimzo"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cWP6dK4G2v/CA59fJK3SCB314GR2hM6Olm+1Y3M3VXs="
+        }
+      ]
+    },
+    {
+      "Route": "index.7upfgnimzo.html",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cWP6dK4G2v/CA59fJK3SCB314GR2hM6Olm+1Y3M3VXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7upfgnimzo"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cWP6dK4G2v/CA59fJK3SCB314GR2hM6Olm+1Y3M3VXs="
+        }
+      ]
+    },
+    {
+      "Route": "index.7upfgnimzo.html.gz",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\7vcanvqtxo-7upfgnimzo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ZLj3wMiWO22q90ggEYwjlNDQ79obg5kXphcamV1Iks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7upfgnimzo"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ZLj3wMiWO22q90ggEYwjlNDQ79obg5kXphcamV1Iks="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\7vcanvqtxo-7upfgnimzo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000510986203"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1956"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ZLj3wMiWO22q90ggEYwjlNDQ79obg5kXphcamV1Iks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"cWP6dK4G2v/CA59fJK3SCB314GR2hM6Olm+1Y3M3VXs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cWP6dK4G2v/CA59fJK3SCB314GR2hM6Olm+1Y3M3VXs="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9444"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cWP6dK4G2v/CA59fJK3SCB314GR2hM6Olm+1Y3M3VXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cWP6dK4G2v/CA59fJK3SCB314GR2hM6Olm+1Y3M3VXs="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\7vcanvqtxo-7upfgnimzo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4ZLj3wMiWO22q90ggEYwjlNDQ79obg5kXphcamV1Iks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4ZLj3wMiWO22q90ggEYwjlNDQ79obg5kXphcamV1Iks="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\9dibtl36cx-pb29hjx7cq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000860585198"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1161"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K8UN6pDwzQ42jQRZuljLTClf620Wapw3kgTn/pkXoUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+94i4nn+T63g8hyMJJZNcPG/YpCq2Y+9p7VbfF9dur4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+94i4nn+T63g8hyMJJZNcPG/YpCq2Y+9p7VbfF9dur4="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+94i4nn+T63g8hyMJJZNcPG/YpCq2Y+9p7VbfF9dur4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+94i4nn+T63g8hyMJJZNcPG/YpCq2Y+9p7VbfF9dur4="
+        }
+      ]
+    },
+    {
+      "Route": "login.html.gz",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\9dibtl36cx-pb29hjx7cq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K8UN6pDwzQ42jQRZuljLTClf620Wapw3kgTn/pkXoUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K8UN6pDwzQ42jQRZuljLTClf620Wapw3kgTn/pkXoUI="
+        }
+      ]
+    },
+    {
+      "Route": "login.pb29hjx7cq.html",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\9dibtl36cx-pb29hjx7cq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000860585198"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1161"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K8UN6pDwzQ42jQRZuljLTClf620Wapw3kgTn/pkXoUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+94i4nn+T63g8hyMJJZNcPG/YpCq2Y+9p7VbfF9dur4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pb29hjx7cq"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+94i4nn+T63g8hyMJJZNcPG/YpCq2Y+9p7VbfF9dur4="
+        }
+      ]
+    },
+    {
+      "Route": "login.pb29hjx7cq.html",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+94i4nn+T63g8hyMJJZNcPG/YpCq2Y+9p7VbfF9dur4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pb29hjx7cq"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+94i4nn+T63g8hyMJJZNcPG/YpCq2Y+9p7VbfF9dur4="
+        }
+      ]
+    },
+    {
+      "Route": "login.pb29hjx7cq.html.gz",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\9dibtl36cx-pb29hjx7cq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K8UN6pDwzQ42jQRZuljLTClf620Wapw3kgTn/pkXoUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pb29hjx7cq"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K8UN6pDwzQ42jQRZuljLTClf620Wapw3kgTn/pkXoUI="
+        }
+      ]
+    },
+    {
+      "Route": "site.css",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\j03clmulto-gw4gsc5oow.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000490436488"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2038"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DwZXI4yhteSFH5djiqY4zsiyl2pXYMpK/NoxJ8RZhgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MOcdPRpTLey0kcRu3YHcI2Tv5W8TYhqi3XatxWvMr68=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MOcdPRpTLey0kcRu3YHcI2Tv5W8TYhqi3XatxWvMr68="
+        }
+      ]
+    },
+    {
+      "Route": "site.css",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6890"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MOcdPRpTLey0kcRu3YHcI2Tv5W8TYhqi3XatxWvMr68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MOcdPRpTLey0kcRu3YHcI2Tv5W8TYhqi3XatxWvMr68="
+        }
+      ]
+    },
+    {
+      "Route": "site.css.gz",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\j03clmulto-gw4gsc5oow.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DwZXI4yhteSFH5djiqY4zsiyl2pXYMpK/NoxJ8RZhgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DwZXI4yhteSFH5djiqY4zsiyl2pXYMpK/NoxJ8RZhgY="
+        }
+      ]
+    },
+    {
+      "Route": "site.gw4gsc5oow.css",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\j03clmulto-gw4gsc5oow.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000490436488"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2038"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DwZXI4yhteSFH5djiqY4zsiyl2pXYMpK/NoxJ8RZhgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MOcdPRpTLey0kcRu3YHcI2Tv5W8TYhqi3XatxWvMr68=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gw4gsc5oow"
+        },
+        {
+          "Name": "label",
+          "Value": "site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MOcdPRpTLey0kcRu3YHcI2Tv5W8TYhqi3XatxWvMr68="
+        }
+      ]
+    },
+    {
+      "Route": "site.gw4gsc5oow.css",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6890"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MOcdPRpTLey0kcRu3YHcI2Tv5W8TYhqi3XatxWvMr68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gw4gsc5oow"
+        },
+        {
+          "Name": "label",
+          "Value": "site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MOcdPRpTLey0kcRu3YHcI2Tv5W8TYhqi3XatxWvMr68="
+        }
+      ]
+    },
+    {
+      "Route": "site.gw4gsc5oow.css.gz",
+      "AssetFile": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\obj\\Debug\\net9.0\\compressed\\j03clmulto-gw4gsc5oow.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DwZXI4yhteSFH5djiqY4zsiyl2pXYMpK/NoxJ8RZhgY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 14:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gw4gsc5oow"
+        },
+        {
+          "Name": "label",
+          "Value": "site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DwZXI4yhteSFH5djiqY4zsiyl2pXYMpK/NoxJ8RZhgY="
+        }
+      ]
+    }
+  ]
+}

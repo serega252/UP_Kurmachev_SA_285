@@ -1,0 +1,6 @@
+@sergey_crud_HostAddress = http://localhost:5084
+
+GET {{sergey_crud_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

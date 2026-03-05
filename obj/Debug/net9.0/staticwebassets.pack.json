@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\sickd\\Учебная практика Курмачева Сергея 285гр\\sergey_crud\\wwwroot\\site.css",
+      "PackagePath": "staticwebassets\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.sergey_crud.props",
+      "PackagePath": "build\\sergey_crud.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.sergey_crud.props",
+      "PackagePath": "buildMultiTargeting\\sergey_crud.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.sergey_crud.props",
+      "PackagePath": "buildTransitive\\sergey_crud.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.sergey_crud.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.sergey_crud.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

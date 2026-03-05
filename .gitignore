@@ -1,0 +1,12 @@
+# .json
+appsettings.json
+appsettings.Development.json
+
+# .NET
+bin/
+obj/
+.vs/
+
+# IDE
+.vscode/
+.idea/
