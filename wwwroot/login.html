@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>5G MOTIV OPERA GX ОБХОД</title>
+  <link rel="stylesheet" href="site.css" />
+</head>
+<body data-page="login">
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-c"></div>
+  <div class="bg-grid"></div>
+
+  <main class="login-shell">
+    <section class="login-card">
+      <div class="login-card__head">
+        <div class="login-card__eyebrow">access gateway</div>
+        <div class="login-card__title">5G MOTIV OPERA GX ОБХОД</div>
+        <div class="login-card__text">Авторизация в системе управления заявками климатической техники.</div>
+      </div>
+
+      <div class="login-form">
+        <div class="field">
+          <label for="login_user">Login</label>
+          <input id="login_user" placeholder="admin" autocomplete="username" />
+          <div class="hint">Введите логин пользователя.</div>
+          <div class="errtxt" id="err_login"></div>
+        </div>
+
+        <div class="field">
+          <label for="login_pass">Password</label>
+          <input id="login_pass" type="password" placeholder="123" autocomplete="current-password" />
+          <div class="hint">Введите пароль.</div>
+          <div class="errtxt" id="err_pass"></div>
+        </div>
+
+        <div class="login-actions">
+          <button class="btn" id="btn_do_login" type="button">Login</button>
+          <button class="btn btn-lite" id="btn_register" type="button">Register</button>
+          <button class="btn btn-lite" id="btn_go_app" type="button">Go to app</button>
+        </div>
+
+        <div class="login-note">Подсказка: Enter — выполнить вход.</div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="msg_modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <div class="modal-title">
+          <span class="badge" id="msg_kind">INFO</span>
+          <span id="msg_title">Message</span>
+        </div>
+        <button class="btn btn-lite" data-close="1" type="button" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body">
+        <div id="msg_body" style="font-family: ui-sans-serif, system-ui; white-space: pre-wrap;">…</div>
+        <details style="margin-top: 10px; font-family: ui-sans-serif, system-ui;">
+          <summary>Details</summary>
+          <pre id="msg_details" class="logbox" style="min-height:auto;"></pre>
+        </details>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-close="1" type="button">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

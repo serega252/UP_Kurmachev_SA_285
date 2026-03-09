@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OPERA GX (YOUTUBE ОБХОД)</title>
+  <link rel="stylesheet" href="site.css" />
+</head>
+<body data-page="app">
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+  <div class="bg-grid"></div>
+
+  <header class="shell-topbar">
+    <div class="shell-topbar__inner">
+      <div class="brandbox">
+        <div class="brandbox__eyebrow">service control center</div>
+        <div class="brandbox__title">OPERA GX (YOUTUBE ОБХОД)</div>
+        <div class="brandbox__meta"><span id="auth_status"></span></div>
+      </div>
+
+      <nav class="navdock">
+        <button class="navbtn active" id="nav_tables" type="button">Workspace</button>
+        <button class="navbtn" id="nav_stats" type="button">Analytics</button>
+        <button class="navbtn" id="nav_logs" type="button">Runtime</button>
+        <button class="navbtn" id="nav_history" type="button">Timeline</button>
+        <button class="navbtn navbtn-danger" id="nav_exit" type="button">Exit</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shell-page">
+    <section class="shell-layout">
+      <aside class="shell-sidebar">
+        <div class="sidebar-card">
+          <div class="sidebar-card__label">Module</div>
+          <select id="entity_select" class="select-table select-table--sidebar"></select>
+        </div>
+
+        <div class="sidebar-card">
+          <div class="sidebar-card__label">Quick search</div>
+          <input id="search_q" class="search search--sidebar" placeholder="Search by value or request status" />
+        </div>
+
+        <div class="sidebar-card">
+          <div class="sidebar-card__label">Selection</div>
+          <div class="stack-pills">
+            <span class="pill">Selected ID <strong id="selected_id">—</strong></span>
+            <span class="pill">Found <strong id="search_count">—</strong></span>
+            <span class="pill">Page <strong id="page_label">1 / 1</strong></span>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <div class="sidebar-card__label">Primary actions</div>
+          <div class="action-col">
+            <button class="btn" id="btn_open_create" type="button">Create record</button>
+            <button class="btn btn-lite" id="btn_reload" type="button">Reload data</button>
+            <button class="btn btn-lite" id="btn_open_view" type="button">Open details</button>
+            <button class="btn btn-lite" id="btn_open_edit" type="button">Edit selected</button>
+            <button class="btn btn-danger" id="btn_open_delete" type="button">Delete selected</button>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <div class="sidebar-card__label">Pagination</div>
+          <div class="mini-form">
+            <label>Go to page</label>
+            <div class="mini-row">
+              <input id="page_input" placeholder="1" />
+              <button class="btn btn-lite" id="btn_page_go" type="button">Go</button>
+            </div>
+
+            <label>Find by ID</label>
+            <div class="mini-row">
+              <input id="goto_id" placeholder="e.g. 15" />
+              <button class="btn btn-lite" id="btn_goto_id" type="button">Find</button>
+            </div>
+
+            <label>Per page</label>
+            <div class="mini-row">
+              <input id="page_size" placeholder="12" />
+              <button class="btn btn-lite" id="btn_page_apply" type="button">Apply</button>
+            </div>
+
+            <div class="mini-row mini-row--split">
+              <button class="btn btn-lite" id="btn_page_prev" type="button">Prev</button>
+              <button class="btn btn-lite" id="btn_page_next" type="button">Next</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-card">
+          <div class="sidebar-card__label">Session</div>
+          <div class="action-col">
+            <button class="btn btn-lite" id="btn_token_toggle" type="button">Show token</button>
+            <button class="btn btn-lite" id="btn_login_page" type="button">Login page</button>
+            <button class="btn btn-lite" id="btn_logout" type="button">Logout</button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="shell-content">
+        <div class="view active" id="view_tables">
+          <div class="hero-panel">
+            <div>
+              <div class="hero-panel__eyebrow">records overview</div>
+              <div class="hero-panel__title">Operational workspace</div>
+              <div class="hero-panel__text">Click a card to select it, double-click to open details. For Request entities, search sends a server request.</div>
+            </div>
+            <div class="hero-panel__badge">Live dataset</div>
+          </div>
+
+          <section class="managerpanel" id="request_manager_panel" style="display:none; margin-top:18px;">
+            <div class="row">
+              <div class="label manager-title">Request command center</div>
+              <div class="spacer"></div>
+              <span class="pill">Current request <strong id="manager_current_request">—</strong></span>
+            </div>
+
+            <div class="managergrid" style="margin-top:12px;">
+              <div class="managercard">
+                <div class="managercard-title">Assign technician</div>
+                <label class="fieldlbl" for="manager_master_id">Master ID</label>
+                <input id="manager_master_id" class="managerinput" placeholder="Например 3" />
+                <button class="btn" id="btn_assign_master" type="button">Assign master</button>
+              </div>
+
+              <div class="managercard">
+                <div class="managercard-title">Change lifecycle status</div>
+                <label class="fieldlbl" for="manager_status">Status</label>
+                <select id="manager_status" class="managerinput">
+                  <option value="Новая">Новая</option>
+                  <option value="В работе">В работе</option>
+                  <option value="Ожидание запчастей">Ожидание запчастей</option>
+                  <option value="Выполнено">Выполнено</option>
+                  <option value="Отменена">Отменена</option>
+                </select>
+                <button class="btn" id="btn_change_status" type="button">Change status</button>
+              </div>
+
+              <div class="managercard managercard-wide">
+                <div class="managercard-title">Extend completion date</div>
+                <div class="managerdeadline-grid">
+                  <div>
+                    <label class="fieldlbl" for="manager_completion_date">New completion date</label>
+                    <input id="manager_completion_date" class="managerinput" type="date" />
+                  </div>
+                  <div>
+                    <label class="fieldlbl" for="manager_comment">Comment</label>
+                    <input id="manager_comment" class="managerinput" placeholder="Например: ожидается поставка комплектующих" />
+                  </div>
+                </div>
+                <button class="btn" id="btn_extend_deadline" type="button">Extend deadline</button>
+              </div>
+            </div>
+          </section>
+
+          <div class="cardswrap">
+            <div class="cardsgrid" id="cards_grid"></div>
+          </div>
+
+          <div class="footer-note">
+            Tip: the logic is unchanged. Only the visual shell and animations were redesigned.
+          </div>
+        </div>
+
+        <div class="view" id="view_stats">
+          <div class="hero-panel">
+            <div>
+              <div class="hero-panel__eyebrow">insights</div>
+              <div class="hero-panel__title">Service analytics</div>
+              <div class="hero-panel__text">Realtime summary of requests, statuses, equipment types and customer quality flow.</div>
+            </div>
+            <button class="btn btn-lite" id="btn_stats_reload" type="button">Refresh analytics</button>
+          </div>
+
+          <div class="statsgrid" style="margin-top:18px;">
+            <div class="statcard">
+              <div class="statlabel">Total requests</div>
+              <div class="statvalue" id="stat_total">0</div>
+            </div>
+            <div class="statcard">
+              <div class="statlabel">Completed</div>
+              <div class="statvalue" id="stat_completed">0</div>
+            </div>
+            <div class="statcard">
+              <div class="statlabel">Average repair time</div>
+              <div class="statvalue" id="stat_avg_days">0 дн.</div>
+            </div>
+          </div>
+
+          <div class="stats2col" style="margin-top:18px;">
+            <div class="statpanel">
+              <div class="row"><div class="label section-title">By status</div></div>
+              <div id="stats_by_status" class="statslist" style="margin-top:12px;"></div>
+            </div>
+            <div class="statpanel">
+              <div class="row"><div class="label section-title">By equipment type</div></div>
+              <div id="stats_by_type" class="statslist" style="margin-top:12px;"></div>
+            </div>
+          </div>
+
+          <section class="statpanel quality-panel" style="margin-top:18px;">
+            <div class="row"><div class="label section-title">Quality survey</div></div>
+            <div class="qrwrap" style="margin-top:12px;">
+              <div class="qrbox"><img id="quality_qr_img" alt="QR-код опроса качества" /></div>
+              <div class="qrinfo">
+                <div class="muted">Survey link</div>
+                <div id="quality_form_link" class="qrlink"></div>
+                <div class="row" style="margin-top:12px;">
+                  <button class="btn btn-lite" id="btn_open_quality_form" type="button">Open form</button>
+                  <button class="btn btn-lite" id="btn_copy_quality_link" type="button">Copy link</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="view" id="view_logs">
+          <div class="hero-panel">
+            <div>
+              <div class="hero-panel__eyebrow">runtime trace</div>
+              <div class="hero-panel__title">System logs</div>
+              <div class="hero-panel__text">Requests and actions performed in the interface appear here.</div>
+            </div>
+            <button class="btn btn-lite" id="btn_logs_clear" type="button">Clear logs</button>
+          </div>
+          <pre id="log" class="logbox"></pre>
+        </div>
+
+        <div class="view" id="view_history">
+          <div class="hero-panel">
+            <div>
+              <div class="hero-panel__eyebrow">audit placeholder</div>
+              <div class="hero-panel__title">Action timeline</div>
+              <div class="hero-panel__text">This section can later display audit history from the backend.</div>
+            </div>
+          </div>
+
+          <section class="timeline-card">
+            <div class="timeline-card__item">
+              <div class="timeline-card__dot"></div>
+              <div>
+                <div class="timeline-card__title">Audit trail not connected yet</div>
+                <div class="timeline-card__text">The visual block is ready. Backend audit can be added later without redesigning the page.</div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <div class="modal" id="token_modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <div class="modal-title"><span class="badge" id="token_badge">JWT</span><span>Session token</span></div>
+        <button class="btn btn-lite" data-close="1" type="button" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body"><pre id="token_box" class="logbox" style="min-height:auto;"></pre></div>
+      <div class="modal-footer"><button class="btn btn-lite" id="btn_token_copy" type="button">Copy</button><button class="btn" data-close="1" type="button">OK</button></div>
+    </div>
+  </div>
+
+  <div class="modal" id="details_modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <div class="modal-title"><span class="badge ok" id="details_badge">DETAILS</span><span id="details_title">…</span></div>
+        <button class="btn btn-lite" data-close="1" type="button" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body"><div id="details_body" style="font-family: ui-sans-serif, system-ui;"></div></div>
+      <div class="modal-footer"><button class="btn btn-lite" id="btn_details_copy" type="button">Copy JSON</button><button class="btn" data-close="1" type="button">OK</button></div>
+    </div>
+  </div>
+
+  <div class="modal" id="form_modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <div class="modal-title"><span class="badge" id="form_badge">FORM</span><span id="form_title">…</span></div>
+        <button class="btn btn-lite" data-close="1" type="button" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body"><div id="form_fields" class="formgrid"></div></div>
+      <div class="modal-footer"><button class="btn btn-lite" data-close="1" type="button">Cancel</button><button class="btn" id="btn_form_submit" type="button">Save</button></div>
+    </div>
+  </div>
+
+  <div class="modal" id="confirm_modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <div class="modal-title"><span class="badge warn" id="confirm_badge">CONFIRM</span><span id="confirm_title">Confirm</span></div>
+        <button class="btn btn-lite" data-close="1" type="button" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body"><div id="confirm_body" style="font-family: ui-sans-serif, system-ui;">…</div></div>
+      <div class="modal-footer"><button class="btn btn-lite" data-close="1" type="button">Cancel</button><button class="btn btn-danger" id="btn_confirm_yes" type="button">Yes</button></div>
+    </div>
+  </div>
+
+  <div class="modal" id="msg_modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <div class="modal-title"><span class="badge" id="msg_kind">INFO</span><span id="msg_title">Message</span></div>
+        <button class="btn btn-lite" data-close="1" type="button" aria-label="Close">✕</button>
+      </div>
+      <div class="modal-body">
+        <div id="msg_body" style="font-family: ui-sans-serif, system-ui; white-space: pre-wrap;">…</div>
+        <details style="margin-top: 10px; font-family: ui-sans-serif, system-ui;">
+          <summary>Details</summary>
+          <pre id="msg_details" class="logbox" style="min-height:auto;"></pre>
+        </details>
+      </div>
+      <div class="modal-footer"><button class="btn" data-close="1" type="button">OK</button></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
